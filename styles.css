@@ -34,12 +34,16 @@ nav a {
 }
 
 /* comment in for CSS-only solution: */
+
+/* Mostrar nav al pasar el ratón sobre .menu */
 /* .menu:hover + nav,
 nav:hover {
   display: flex;
 } */
 
-
+.menu-visible {
+  display: flex;
+}
 
 /* TABLET STYLES */
 
